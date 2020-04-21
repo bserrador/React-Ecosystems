@@ -1,10 +1,11 @@
 import React from 'react';
-import ToDoListItem from './ToDoListItem';
+import TodoListItem from './TodoListItem';
+import './TodoList';
 
-const ToDoList = ({ todos }) => (
+const TodoList = ({ todos }) => (
     <div className="list-wrapper">
-        {todos.map(todo => <ToDoListItem todo={todo} />)}
+        {todos.map(todo => <TodoListItem todo={todo} />)}
     </div>
 );
 
-export default ToDoList;
+export default TodoList;

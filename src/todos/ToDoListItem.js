@@ -1,6 +1,7 @@
 import React from 'react';
+import './TodoListItem';
 
-const ToDoListItem = ({ todo }) => (
+const TodoListItem = ({ todo }) => (
     <div className="todo-item-container">
         <h3>{todo.text}</h3>
         <div className="buttons-container">
@@ -10,4 +11,4 @@ const ToDoListItem = ({ todo }) => (
     </div>
 );
 
-export default ToDoListItem;
+export default TodoListItem;
